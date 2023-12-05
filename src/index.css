@@ -1,0 +1,153 @@
+/*Header*/
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #E5E5E5;
+  display: flex;
+  justify-content: center;
+}
+.App{
+  margin-top: 100px;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding-bottom: 2px;
+  color: #2B283A;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25)
+
+}
+.Nav.dark {
+  background-color: #21222A;
+}
+img{
+  height: 40px;
+  width: 40px;
+  margin-top: 31px;
+  margin-left: 34px;
+
+
+  
+  
+
+}
+h2{
+  color: #61DAFB;
+  margin-right:320px;
+  margin-top: 35px;
+  margin-left: 12px;
+
+
+}
+h3{
+  margin-top: 35px;
+  margin-left: -110px;
+  margin-right: 20px;
+}
+.Nav.dark h3{
+  color: #DEEBF8;
+  margin-right: 20px;
+}
+
+.toggler {
+  margin-top: 10px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.toggler p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.toggler--slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+.Nav.dark .toggler .toggler--slider {
+  border-color: white;
+  background-color: #F5F5F5;
+}
+
+.toggler--slider--circle {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.Nav.dark .toggler .toggler--slider--circle {
+  background-color: black;
+}
+
+.toggler-light {
+  color: #2B283A;
+}
+
+.Nav .toggler .toggler-light {
+  color: #918E9B;
+}
+
+.toggler--dark {
+  color: #D5D4D8;
+}
+
+.Nav.dark .toggler .toggler-dark {
+  color: #FFFFFF;
+}
+
+.Nav.dark .toggler .toggler--slider {
+  justify-content: flex-end;
+}
+/*Maincontent*/
+.Maincontent{
+  background-color: white;
+  color: #2B283A;
+  font-family: 'Inter', sans-serif;
+  padding-top: 2px;
+  padding: 5px;
+  display: block;
+  text-align: left;
+}
+h1{
+  margin-left: 27px;
+  margin-right: 90px;
+  margin-top: 57px;
+}
+.Maincontent.dark {
+  background-color: #282D35;
+  color: white;
+}
+ 
+ul{
+  list-style: none;
+}
+li{
+  margin-left: 51px;
+}
+
+ul li::before{
+  content: "\2022";
+  color: #61DAFB;
+  display: inline-block;
+  width: 1em;
+}
+.last.li{
+  margin-bottom: 125px;
+
+}
+
